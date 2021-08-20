@@ -13,3 +13,7 @@
 # Avengers: Endgame
 - Year: 2019
 - Name: Peter Benjamin Parker
+
+# Spider-Man: Far From Home
+- Year: 2019
+- Name: Peter Benjamin Parker
