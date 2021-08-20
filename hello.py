@@ -1,3 +1,3 @@
-for i in range(1, 10 + 1):
-    if i % 2 == 0:
-        print('hello world')
+for num in range(1, 10 + 1):
+    if num % 2 == 0:
+        print('data')
