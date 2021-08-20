@@ -1,3 +1,5 @@
-for i in range(1, 10 + 1):
-    if i % 2 == 0:
-        print('hello world')
+for j in range(1, 20 + 1):
+    if j % 2 == 0:
+        print(j, 'is even.')
+    else:
+        print(j)
