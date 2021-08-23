@@ -5,7 +5,7 @@
 - Julius Caesar의 이름에서 유래됐다.
 - 가장 간단하고 널리 알려진 암호기법 중 하나다.
 - 치환 암호의 일종으로 알파벳을 암호키 숫자만큼 내려 적는다.
-    - 암호키가 2 A $\rightarrow$ Y, B $\rightarrow$ Z, F $\rightarrow$ D...
+    - 암호키가 2 A<img src="https://render.githubusercontent.com/render/math?math=\rightarrow">Y, B<img src="https://render.githubusercontent.com/render/math?math=\rightarrow">Z, F<img src="https://render.githubusercontent.com/render/math?math=\rightarrow">D...
 - 현대의 복잡한 암호 체계에서도 일부 사용된다.
 
 ## 카이사르 암호의 예
@@ -16,9 +16,9 @@
 
 |원본문자|A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z|
 |--------|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|암호문자|Y|Z|A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|
+|암호문자|X|Y|Z|A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|
 
-**Python $\rightarrow$ Nwrfml**
+**Python<img src="https://render.githubusercontent.com/render/math?math=\rightarrow">Mvqelk**
 
 - ### 수학적 접근
 
@@ -26,21 +26,21 @@
 <br/>
 A = 0, B = 1,...., Z = 25
 
-**BIG DATA %\rightarrow% 1 8 6&nbsp;&nbsp;3 0 19 0**
+**BIG DATA<img src="https://render.githubusercontent.com/render/math?math=\rightarrow">1 8 6&nbsp;&nbsp;3 0 19 0**
 <br/>
 <br/>
 암호화
 
-$E_n(x) = (x - n)$ mod 26.
+<img src="https://render.githubusercontent.com/render/math?math=E_n(x)"> (x - n) mod 26.
 
-**1 8 6&nbsp;&nbsp;3 0 19 0 $\rightarrow$ 24 5 3&nbsp;&nbsp;0 23 16 23 $\rightarrow$ YFD AXQX**
+**1 8 6&nbsp;&nbsp;3 0 19 0<img src="https://render.githubusercontent.com/render/math?math=\rightarrow">24 5 3&nbsp;&nbsp;0 23 16 23<img src="https://render.githubusercontent.com/render/math?math=\rightarrow">YFD AXQX**
 <br/>
 <br/>
 복호화
 
-$D_n(x) = (x + n)$ mod 26.
+<img src="https://render.githubusercontent.com/render/math?math=D_n(x) = ">(x + n) mod 26.
 
-**YFD AXQX $\rightarrow$ 24 5 3&nbsp;&nbsp;0 23 16 23 $\rightarrow$ 1 8 6&nbsp;&nbsp;3 0 19 0**
+**YFD AXQX<img src="https://render.githubusercontent.com/render/math?math=\rightarrow">24 5 3&nbsp;&nbsp;0 23 16 23<img src="https://render.githubusercontent.com/render/math?math=\rightarrow">1 8 6&nbsp;&nbsp;3 0 19 0**
 
 ## 역사 및 사용
 
@@ -58,4 +58,8 @@ $D_n(x) = (x + n)$ mod 26.
 
 ## 카이사르 암호의 보안성
 
-&nbsp;카이사르 암호는 단순한만큼 누구나 쉽게 사용할 수 있다는 장점이 있다. 하지만 단순한만큼 암호가 쉽게 해독될 수 있다. 카이사르 암호는 카이사르 암호가 사용된다는 것을 알지만 암호값을 알지 못하는 상황과 카이사르 암호가 사용된다는 사실을 모르는 상황 모두 쉽게 해독될 수 있다. 첫 번째 상황의 경우 카이사르 암호가 사용된다는 것을 아는 상황이기 때문에 무작위 대입 등을 통해 쉽게 해독이 가능하며, 두번째 상황이라도 단순 대체 암호가 사용된다는 것을 알고 단어와 철자의 사용 빈도 등의 통계적 분석법으로 쉽게 해독이 가능하다.
+카이사르 암호는 단순한만큼 누구나 쉽게 사용할 수 있다는 장점이 있다.  
+하지만 단순한만큼 암호가 쉽게 해독될 수 있다.  
+카이사르 암호는 카이사르 암호가 사용된다는 것을 알지만 암호값을 알지 못하는 상황과 카이사르 암호가 사용된다는 사실을 모르는 상황 모두 쉽게 해독될 수 있다.  
+첫 번째 상황의 경우 카이사르 암호가 사용된다는 것을 아는 상황이기 때문에 무작위 대입 등을 통해 쉽게 해독이 가능하다.  
+두번째 상황이라도 단순 대체 암호가 사용된다는 것을 알고 단어와 철자의 사용 빈도 등의 통계적 분석법으로 쉽게 해독이 가능하다.
