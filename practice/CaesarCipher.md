@@ -31,14 +31,14 @@ A = 0, B = 1,...., Z = 25
 <br/>
 암호화
 
-<img src="https://render.githubusercontent.com/render/math?math=E_n(x)"> (x - n) mod 26.
+<img src="https://render.githubusercontent.com/render/math?math=E_n(x) = ( x"> - <img src="https://render.githubusercontent.com/render/math?math=n)"> mod 26.
 
 **1 8 6&nbsp;&nbsp;3 0 19 0<img src="https://render.githubusercontent.com/render/math?math=\rightarrow">24 5 3&nbsp;&nbsp;0 23 16 23<img src="https://render.githubusercontent.com/render/math?math=\rightarrow">YFD AXQX**
 <br/>
 <br/>
 복호화
 
-<img src="https://render.githubusercontent.com/render/math?math=D_n(x) = ">(x + n) mod 26.
+<img src="https://render.githubusercontent.com/render/math?math=D_n(x) = (x ">+ <img src="https://render.githubusercontent.com/render/math?math=n)"> mod 26.
 
 **YFD AXQX<img src="https://render.githubusercontent.com/render/math?math=\rightarrow">24 5 3&nbsp;&nbsp;0 23 16 23<img src="https://render.githubusercontent.com/render/math?math=\rightarrow">1 8 6&nbsp;&nbsp;3 0 19 0**
 
